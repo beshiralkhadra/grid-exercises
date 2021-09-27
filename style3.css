@@ -1,0 +1,17 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.first {
+  background-color: grey;
+  height: 20vh;
+  grid-column: 1/2;
+}
+.second {
+  background-color: grey;
+
+  grid-column: 2/3;
+}
+.second > div {
+  border: hidden;
+}

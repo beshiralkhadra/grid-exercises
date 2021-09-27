@@ -1,0 +1,65 @@
+.parent {
+  display: grid;
+  /* grid-column: repeat(8, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 10px;
+  height: 20vh;
+}
+.first {
+  grid-column: 1/2;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.second {
+  grid-column: 2/3;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+
+.third {
+  grid-column: 3/4;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+
+.fourth {
+  grid-column: 4/5;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.fifth {
+  grid-column: 1/2;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.sixth {
+  grid-column: 2/3;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.seventh {
+  grid-column: 3/4;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+.eight {
+  grid-column: 4/5;
+  background-color: yellow;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
