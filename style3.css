@@ -1,17 +1,79 @@
-.parent {
+body {
+  margin: 0;
+  width: 100%;
+}
+.container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  /* justify-content: space-around; */
+  width: 100%;
+  height: 33%;
+  margin: 10px;
+  /* padding: 20px; */
+  /* align-self:stretch; */
 }
-.first {
+.item1 {
+  grid-column: 1;
+  background-color: #efefef;
+  margin-right: 5px;
+  padding: 10px;
+}
+.item2 {
+  grid-column: 2;
+  background-color: #efefef;
+  margin-right: 5px;
+  /* padding: 10px; */
+  /* height: 100%; */
+}
+.item2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.sub1 {
   background-color: grey;
-  height: 20vh;
-  grid-column: 1/2;
-}
-.second {
-  background-color: grey;
-
-  grid-column: 2/3;
-}
-.second > div {
   border: hidden;
+  margin: 10px;
+}
+.sub2 {
+  background-color: grey;
+  margin: 10px;
+}
+.sub3 {
+  background-color: grey;
+  margin: 10px;
+}
+.sub4 {
+  background-color: grey;
+  margin: 10px;
+}
+.item3 {
+  grid-column: 3;
+  background-color: #efefef;
+  margin-right: 5px;
+}
+.item3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sub5 {
+  background-color: grey;
+  margin: 10px;
+}
+.sub6 {
+  background-color: grey;
+  margin: 10px;
+}
+.sub7 {
+  background-color: grey;
+  margin: 10px;
+}
+.sub8 {
+  background-color: grey;
+  margin: 10px;
+}
+.item4 {
+  grid-column: 4;
+  background-color: #efefef;
+  padding: 10px;
 }
